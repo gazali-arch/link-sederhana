@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Sederhana - SKM Dinkes Kapuas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+            background-color: #f4f4f4;
+        }
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+        }
+        button {
+            width: 250px;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: 0.3s;
+            color: white;
+        }
+        button:nth-child(1) { background-color: #28a745; }
+        button:nth-child(2) { background-color: #007bff; }
+        button:nth-child(3) { background-color: #dc3545; }
+        button:hover {
+            transform: scale(1.05);
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <h1>📋 Kegiatan Survei Kepuasan Masyarakat (SKM)</h1>
+    <h3>Dinkes Kab. Kapuas</h3>
+    <div class="button-container">
+        <button onclick="window.open('https://forms.cloud.microsoft/r/QEH2rbENg4?origin=lprLink', '_blank')">📋 Daftar Hadir</button>
+        <button onclick="window.open('https://drive.google.com/file/d/1xHR9559qFCeBPbPTLyg9Cquo11Ft6MaO/view?usp=sharing', '_blank')">📘 Materi</button>
+        <button onclick="window.open('https://teams.microsoft.com/meet/45844523518513?p=7yf5d5w3WaOH5vWd88', '_blank')">🎥 Zoom / Webinar</button>
+    </div>
+</body>
+</html>
