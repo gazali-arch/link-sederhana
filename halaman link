@@ -28,9 +28,9 @@
             transition: 0.3s;
             color: white;
         }
-        button:nth-child(1) { background-color: #28a745; } /* Hijau */
-        button:nth-child(2) { background-color: #007bff; } /* Biru */
-        button:nth-child(3) { background-color: #dc3545; } /* Merah */
+        button:nth-child(1) { background-color: #28a745; }
+        button:nth-child(2) { background-color: #007bff; }
+        button:nth-child(3) { background-color: #dc3545; }
         button:hover {
             transform: scale(1.05);
             opacity: 0.9;
@@ -40,9 +40,9 @@
 <body>
     <h1>Halaman Link Sederhana</h1>
     <div class="button-container">
-        <button onclick="window.open('https://forms.cloud.microsoft/r/QEH2rbENg4?origin=lprLink, '_blank')">📋 Daftar Hadir</button>
-        <button onclick="window.open('https://drive.google.com/file/d/1xHR9559qFCeBPbPTLyg9Cquo11Ft6MaO/view?usp=sharing, '_blank')">📘 Materi</button>
-        <button onclick="window.open('https://teams.microsoft.com/meet/45844523518513?p=7yf5d5w3WaOH5vWd88, '_blank')">🎥 Zoom / Webinar</button>
+        <button onclick="window.open('https://forms.cloud.microsoft/r/QEH2rbENg4?origin=lprLink', '_blank')">📋 Daftar Hadir</button>
+        <button onclick="window.open('https://drive.google.com/file/d/1xHR9559qFCeBPbPTLyg9Cquo11Ft6MaO/view?usp=sharing', '_blank')">📘 Materi</button>
+        <button onclick="window.open('https://teams.microsoft.com/meet/45844523518513?p=7yf5d5w3WaOH5vWd88', '_blank')">🎥 Zoom / Webinar</button>
     </div>
 </body>
 </html>
